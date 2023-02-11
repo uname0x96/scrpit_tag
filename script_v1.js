@@ -1,5 +1,6 @@
 <script>
-  document.body.style.backgroundColor = "red";
-  console.log("Let see this Script Tag");
-  alert("Hello, script tag here");
+  $(document).ready(function(){
+    $('body').css('background-color', 'red');
+    alert("Welcome");
+  });
 </script>
