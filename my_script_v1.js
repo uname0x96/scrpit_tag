@@ -1,6 +1,4 @@
-<script>
-  $(document).ready(function(){
-    $('body').css('background-color', 'red');
-    alert("Welcome");
-  });
-</script>
+jQuery(document).ready(function() {
+	console.log('Thanks for reading WeeklyHow\'s Tutorials!');
+});
+Code language: JavaScript (javascript)Copied!
